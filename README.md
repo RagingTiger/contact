@@ -1,6 +1,6 @@
-[![tests](https://github.com/RagingTiger/parley/actions/workflows/tests.yml/badge.svg)](https://github.com/RagingTiger/parley/actions/workflows/tests.yml)
-[![docker](https://github.com/RagingTiger/parley/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/RagingTiger/parley/actions/workflows/docker-publish.yml)
-[![pages-build-deployment](https://github.com/RagingTiger/parley/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RagingTiger/parley/actions/workflows/pages/pages-build-deployment)
+[![tests](https://github.com/RagingTiger/contact/actions/workflows/tests.yml/badge.svg)](https://github.com/RagingTiger/contact/actions/workflows/tests.yml)
+[![docker](https://github.com/RagingTiger/contact/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/RagingTiger/contact/actions/workflows/docker-publish.yml)
+[![pages-build-deployment](https://github.com/RagingTiger/contact/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RagingTiger/contact/actions/workflows/pages/pages-build-deployment)
 
 # Parley
 *(noun)*
