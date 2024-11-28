@@ -28,7 +28,7 @@ CURRENTDIR := $(PWD)
 # docker-related variables
 DCTNR := webserver.$(notdir $(PWD))
 SRCPATH = /usr/local/src/parley
-DCKRIMG = ghcr.io/diogenesanalytics/parley:master
+DCKRIMG = ghcr.io/ragingtiger/contact:master
 DCKRBLD = docker build -t ${DCKRIMG} . --load
 DCKRUSR = --user 1000:1000
 DCKRTST = docker run --rm ${DCKRUSR} -v ${CURRENTDIR}:${SRCPATH} -it ${DCKRIMG}

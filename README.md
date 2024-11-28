@@ -1,6 +1,6 @@
-[![tests](https://github.com/DiogenesAnalytics/parley/actions/workflows/tests.yml/badge.svg)](https://github.com/DiogenesAnalytics/parley/actions/workflows/tests.yml)
-[![docker](https://github.com/DiogenesAnalytics/parley/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/DiogenesAnalytics/parley/actions/workflows/docker-publish.yml)
-[![pages-build-deployment](https://github.com/DiogenesAnalytics/parley/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/DiogenesAnalytics/parley/actions/workflows/pages/pages-build-deployment)
+[![tests](https://github.com/RagingTiger/parley/actions/workflows/tests.yml/badge.svg)](https://github.com/RagingTiger/parley/actions/workflows/tests.yml)
+[![docker](https://github.com/RagingTiger/parley/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/RagingTiger/parley/actions/workflows/docker-publish.yml)
+[![pages-build-deployment](https://github.com/RagingTiger/parley/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/RagingTiger/parley/actions/workflows/pages/pages-build-deployment)
 
 # Parley
 *(noun)*
@@ -181,7 +181,7 @@ option has 4 possible *attributes* (**NOTE**: attributes with a __*__ mark are
 **required**):
 
 + `label`(__*__): The text displayed to the user in the **selectbox**.
-+ `value`(__*__): The text sent upon *form submission* in the _"query string"_.  
++ `value`(__*__): The text sent upon *form submission* in the _"query string"_.
 + `selected`: A *boolean* value that initializes this option as *selected* by default.
 + `disabled`: A *boolean* value that prohibits the user from selecting this option.
 
@@ -241,7 +241,7 @@ Here we will show some **common use cases** for the `Makefile`:
   tests (written with *pytest*) on the current website.
 
 + **build docker image**: running `make build` will build the
-  `ghcr.io/diogenesanalytics/parley:master` *Docker image* locally.
+  `ghcr.io/ragingtiger/parley:master` *Docker image* locally.
 
 + **stop the web server**: running `make stop-server` will stop any currently *running*
   server deployed by `make serve`.
@@ -250,7 +250,7 @@ Here we will show some **common use cases** for the `Makefile`:
   the server deployed previously by `make serve` (if any exist).
 
 + **run specific tests**: running `make shell` will allow start up a **bash** instance
-  inside the `ghcr.io/diogenesanalytics/parley:master` *Docker image*, from which you
+  inside the `ghcr.io/ragingtiger/parley:master` *Docker image*, from which you
   can then run a *specific subset* of tests (**e.g.** `pytest -m website`).
 
 ## References
