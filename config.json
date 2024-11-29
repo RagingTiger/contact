@@ -789,7 +789,7 @@
       ]
     },
     {
-      "label": "City and State/Province",
+      "label": "City & State/Province",
       "name": "city_state",
       "type": "text",
       "required": true
@@ -828,7 +828,7 @@
       }
     },
     {
-      "label": "Current relationship status",
+      "label": "Current Relationship Status",
       "name": "relationship_status",
       "type": "selectbox",
       "required": true,
@@ -869,13 +869,62 @@
       }
     },
     {
-      "label": "Add any professional social media accounts (optional)",
+      "label": "How did you hear about us",
+      "name": "referral_source",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select an option--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "label": "In Person (You directly met us)",
+          "value": "in_person"
+        },
+        { "label": "Google Search", "value": "google_search" },
+        { "label": "Social Media", "value": "social_media" },
+        { "label": "Word of Mouth", "value": "word_of_mouth" },
+        { "label": "Referral from a Friend", "value": "referral_friend" },
+        { "label": "Online Advertisement", "value": "online_advertisement" },
+        { "label": "Event or Conference", "value": "event_conference" },
+        { "label": "Professional Network", "value": "professional_network" },
+        { "label": "News Article", "value": "news_article" },
+        { "label": "Podcast", "value": "podcast" },
+        { "label": "YouTube", "value": "youtube" },
+        { "label": "LinkedIn", "value": "linkedin" },
+        { "label": "Twitter/X", "value": "twitter" },
+        { "label": "Facebook", "value": "facebook" },
+        { "label": "Instagram", "value": "instagram" },
+        { "label": "Other", "value": "other" }
+      ]
+    },
+    {
+      "label": "Have you contacted us before",
+      "name": "previous_contact",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select an option--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Yes", "value": "yes" },
+        { "label": "No", "value": "no" }
+      ]
+    },
+    {
+      "label": "Add any social media accounts (optional)",
       "name": "social_account_names",
       "type": "textarea",
       "required": false
     },
     {
-      "label": "Add your professional website (optional)",
+      "label": "Add your website (optional)",
       "name": "client_website",
       "type": "url",
       "required": false
@@ -886,6 +935,15 @@
         "Be as detailed and explicit as possible"
       ],
       "name": "reason_for_contact",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
+        "What is your expected (ideal) outcome from contacting us?",
+        "Be as detailed and explicit as possible"
+      ],
+      "name": "expected_outcome",
       "type": "textarea",
       "required": true
     }
